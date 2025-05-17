@@ -8,6 +8,7 @@
 - ooo
 - ooo
 
+```mermaid
 flowchart TD
     A[Start] --> B[Capture Image]
     B --> C[Convert to HSV]
@@ -26,7 +27,9 @@ flowchart TD
     J -->|Yes| N[Delay and Stop]
     N --> O[End]
 
+
 flowchart TD 
     A[Start] --> B[Capture Image]
     B --> H[Amma]
+```
     
